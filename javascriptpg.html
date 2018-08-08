@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <title>TACOCAT</title>
+    <style>
+      
+   
+     /* BASIS OF WEBPAGE */
+      body {
+        background: url(http://subtlepatterns.com/patterns/symphony.png);
+        background-attachment: fixed;
+        height: 100%;
+        text-align: center;
+        font-family: Raleway, Comic Sans MS, Verdana, Serif;
+        
+        
+      }
+      
+      
+      h1 {
+        color: black;
+        text-shadow: 2px 2px #a1a1a1;
+        font-size: 65px;
+        font-family: Pacifico, Raleway, Verdana, Serif;
+      }
+    #welcome {
+        margin: 65px 0px 0px 0px;
+        display: block;
+      }
+      h2 {
+        color: black;
+        text-shadow: 2px 2px #a1a1a1;
+        font-size: 38px;
+      }
+      
+      
+      p {
+        font-size: 15px;
+      }
+      
+      a {
+        text-decoration:none;
+      }
+      img {
+        
+      }
+      
+      
+      .main {
+        width: 800px;
+       /* alter-able */ height: 1000px;
+        background-color: #e6e6e6;
+        box-shadow: 0px 0px 85px 1px ;
+        padding: 20px;
+        margin: 50px 0px 50px 0px;
+        /* opacity: 0.6; */
+      }
+      
+      #navbar ul li {
+        list-style-type: none;
+        display: inline;
+        padding: 0px 20px;
+      }
+      
+      #links {
+        padding: 10px;
+        margin: 10px 10px 10px 10px;
+        position: relative; 
+        float: right;
+        }
+      
+     
+      
+      #links li a {
+        color: transparent;
+      	display: inline;
+      	width: 100%;
+      	text-transform: uppercase;
+      	text-shadow: 0px 0px 4px #fff;
+      	letter-spacing: 1px;
+      	-webkit-transition: all 0.2s ease-in-out;
+      	-moz-transition: all 0.2s ease-in-out;
+      	-o-transition: all 0.2s ease-in-out;
+      	-ms-transition: all 0.2s ease-in-out;
+      	transition: all 0.2s ease-in-out;
+      }
+      #links:hover li a{
+    	text-shadow: 0px 0px 6px #fff;
+    }
+    #links li a:hover{
+    	color: #fff;
+	text-shadow: 0px 0px 1px #fff;
+	padding-left: 10px;
+}
+
+#navbar {
+  height:55px;
+  width: 100%;
+  position: fixed;
+  margin: -50px 0px 0px -5px;
+  background-image: url("blackimg.jpg");
+  opacity: 0.7;
+ z-index: 999999999;
+  
+}
+
+    button {
+border:1px solid #25729a; -webkit-border-radius: 3px; -moz-border-radius: 3px;border-radius: 3px;font-size:12px;font-family:arial, helvetica, sans-serif; padding: 10px 10px 10px 10px; text-decoration:none; display:inline-block;text-shadow: -1px -1px 0 rgba(0,0,0,0.3);font-weight:bold; color: #FFFFFF;
+ background-color: #3093c7; background-image: -webkit-gradient(linear, left top, left bottom, from(#3093c7), to(#1c5a85));
+ background-image: -webkit-linear-gradient(top, #3093c7, #1c5a85);
+ background-image: -moz-linear-gradient(top, #3093c7, #1c5a85);
+ background-image: -ms-linear-gradient(top, #3093c7, #1c5a85);
+ background-image: -o-linear-gradient(top, #3093c7, #1c5a85);
+ background-image: linear-gradient(to bottom, #3093c7, #1c5a85);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#3093c7, endColorstr=#1c5a85);
+}
+
+button:hover{
+ border:1px solid #1c5675;
+ background-color: #26759e; background-image: -webkit-gradient(linear, left top, left bottom, from(#26759e), to(#133d5b));
+ background-image: -webkit-linear-gradient(top, #26759e, #133d5b);
+ background-image: -moz-linear-gradient(top, #26759e, #133d5b);
+ background-image: -ms-linear-gradient(top, #26759e, #133d5b);
+ background-image: -o-linear-gradient(top, #26759e, #133d5b);
+ background-image: linear-gradient(to bottom, #26759e, #133d5b);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#26759e, endColorstr=#133d5b);
+}
+
+/* Extra elements of webpage */
+
+
+.star-box {
+      width: 600px;
+      height: 120px;
+      background-color: black;
+      margin: 0px 0px 10px 0px;
+    }
+
+    .star {
+      width: 120px;
+      height: 120px;
+      background-image: url("http://girlcode.co.nz/linked/goldstar.png");
+      float: left;
+    }
+    
+    </style>
+  </head>
+
+  <body>
+  <div id="navbar">
+    
+    <ul id="links">
+      
+      <li>
+        <a href="http://tacocat.neocities.org/">Home</a>
+      </li>
+      <li>
+        <a href="tvshow.html">Javascript</a>
+      </li>
+      <li>
+        <a href="fivestar.html">Cats</a>
+      </li>
+      <li>
+        <a href="http://29a.ch/sandbox/2011/neonflames/#" class>Constellations</a>
+      </li>
+      <li>
+        <a href="http://cat-bounce.com/">Cat-bounce</a>
+      </li>
+      <li>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">HellO</a>
+      </li>
+      
+    </ul>
+    
+  </div>
+   <center>
+   
+     <h1>Welcome to the TACOCAT website</h1>
+    <div class="main">
+    <h2>TV Concept Generator</h2>
+<p id="display-area">Click the button!</p>
+<button id="next-page-button">Next idea</button>
+<br><br><hr><br>
+    
+      <h2 class="title">Five Star Rating</h2>
+    <div class="star-box">
+      <div class="star"></div>
+    </div>
+    <button class="button2">Add a Star</button>
+    <button class="button3">Remove a Star</button>
+    <button class="button4">Fade Stars</button>
+    <br><br><hr>
+    
+    <h2>Cat City</h2>
+    <p class="info"></p>
+    <p class="message"></p>
+    <button class="buttonTuna">Buy tuna</button>
+    <button class="buttonCatch">Catch a cat</button>
+    <button class="buttonGive">Give a cat to the SPCA</button>
+    <br> <br> <hr>
+    
+    
+    <h2>Stopwatch</h2>
+    <p class="time">0</p>
+    <button class="buttonStart">Start</button>
+    <button class="buttonStop">Stop</button>
+    <button class="buttonReset">Reset</button>
+    
+    
+    
+    
+    <script>
+    
+//Hello! This is the JavaScript.
+//You can skip this part for now. Jump ahead down to where I say 'LOOK HERE'
+
+var button = document.getElementById("next-page-button");
+
+var showThisMessage = function (message) {
+  var displayArea = document.getElementById("display-area");
+  displayArea.innerHTML = message;
+};
+
+var makeAndShowConcept = function () {
+  var randomConcept = getRandomConcept();
+  showThisMessage(randomConcept);
+};
+
+var pickRandom = function (list) {
+  return list[Math.floor(Math.random()*list.length)];
+};
+
+button.addEventListener('click', makeAndShowConcept);
+
+// ***
+// LOOK HERE
+// ***
+// Hello again! This is the part we are working on.
+
+var getRandomConcept = function () {
+  var people = [];
+  people.push("time traveller");
+  people.push("school teacher");
+  people.push("scientist");
+  people.push("wizard");
+
+  var jobs = [];
+  jobs.push("runs a hotel");
+  jobs.push("solves mysteries");
+  jobs.push("battles against the forces of evil");
+  jobs.push("works at a grocery store");
+  
+  var places = [];
+  places.push("London");
+  places.push("Taipei");
+  places.push("Outer Space");
+  places.push("Auckland");
+
+  var myConcept = "A " + pickRandom(people) + " and a " + pickRandom(people) + " who " + pickRandom(jobs) + " in " + pickRandom(places);
+  return myConcept;
+};
+//Hello! This is the start of the JavaScript.
+
+
+
+var addStar = function () {
+  var star = $('<div class="star"></div>');
+  $(".star-box").append(star);
+}
+
+var removeStar = function () {
+  $('.star').first().remove();
+}
+
+var fadeStars = function () {
+  $('.star').fadeToggle();
+}
+
+//make the buttons call functions when clicked
+
+
+$(".button2").on("click", addStar);
+$(".button3").on("click", removeStar);
+$(".button4").on("click", fadeStars);
+
+//This is the end of the JavaScript.
+
+
+
+
+//Hello! This is the start of the JavaScript.
+var cats = 0;
+var catfood = 4;
+var medals = 0;
+var breadmakers = 0;
+
+var showInfo = function () {
+  $(".info").text("You have " + catfood + " tins of catfood, " + cats + " cats, " + medals + " SPCA medals, and " + breadmakers + " breadmakers.");
+}
+
+var getCat = function () {
+  if (catfood > 0) {
+    catfood = catfood - 1;
+    cats = cats + 1;
+    showInfo();
+    $(".message").text("You found a cat!");
+  } else {
+    $(".message").text("You need to buy more catfood first.");
+  }
+}
+
+var buyTuna = function () {
+    catfood = catfood + 1;
+    showInfo();
+    $(".message").text("You found a catfood!");
+}
+
+var giveCat = function () {
+  if (cats > 0 && medals < 5) {
+    medals = medals + 1;
+    cats = cats - 1;
+    showInfo();
+    $(".message").text("You gave away a cat!");
+  } else if (cats > 1 && medals === 5) {
+    medals = medals - 5;
+    cats = cats - 1;
+    breadmakers = breadmakers + 1;
+    showInfo();
+    $(".message").text("You gave away a cat! Every six cats gets a breadmaker.");
+  } else {
+    $(".message").text("You need to find a cat first.");
+  }
+}
+
+$(".buttonTuna").on("click", buyTuna);
+$(".buttonCatch").on("click", getCat);
+$(".buttonGive").on("click", giveCat);
+
+showInfo();
+    
+    
+    
+    //Hello! This is the start of the JavaScript.
+
+//this variable holds the number to display
+var timer;
+//this variable decides if I am counting right now
+var counting;
+
+//set up
+timer = 0;
+counting = false;
+
+//tick tick tick tick...
+var tick = function () {
+  if (counting === true) {
+    timer = timer + 1;
+  }
+  //display the timer value
+  $(".time").text(timer);
+}
+
+var start = function () {
+  //not working right...
+  confirm("Ready to start?");
+  counting = true;
+}
+
+var stop = function () {
+  //um...
+  counting = false;
+}
+
+var reset = function () {
+  //not sure this is right
+  counting = false;
+  timer = 0;
+}
+
+//call the function 'tick' over and over again
+setInterval(tick, 1000);
+
+//When you click on a button it will call a function:
+$(".buttonStart").on("click", start);
+$(".buttonStop").on("click", stop);
+$(".buttonReset").on("click", reset);
+
+//This is the end of the javascript
+    </script>
+        
+          
+       </div>
+       </center>
+  </body>  
+</html>
